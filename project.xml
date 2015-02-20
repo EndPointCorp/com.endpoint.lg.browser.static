@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<project type="activity" builder="java">
+    <name>Static Browser Activity</name>
+    <description>
+Browser Activity to present "webui" activties to the user
+    </description>
+
+    <identifyingName>com.endpoint.lg.browser.static</identifyingName>
+    <version>1.0.0.dev</version>
+</project>
