@@ -6,7 +6,7 @@ Java package: com.endpoint.lg.browser.static
 Liquid Galaxy Interactive Spaces browser activity to present "webui" activities to the user.
 
 
-Copyright (C) 2015 Google Inc.
+Copyright (C) 2015 Google Inc.  
 Copyright (C) 2015 End Point Corporation
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not
