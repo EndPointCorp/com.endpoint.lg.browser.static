@@ -2,7 +2,7 @@
 <project type="activity" builder="java">
     <name>Static Browser Activity</name>
     <description>
-Browser Activity to present "webui" activties to the user
+Browser Activity to present "webui" activities to the user
     </description>
 
     <identifyingName>com.endpoint.lg.browser.static</identifyingName>
