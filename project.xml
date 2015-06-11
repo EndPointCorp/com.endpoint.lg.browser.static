@@ -6,5 +6,39 @@ Browser Activity to present "webui" activities to the user
     </description>
 
     <identifyingName>com.endpoint.lg.browser.static</identifyingName>
-    <version>1.0.0.dev</version>
+    <version>1.0.1</version>
+
+    <activity type="interactivespaces_native">
+        <name>Browser Activity</name>
+        <class>com.endpoint.lg.browser.LGBrowserActivity</class>
+        <configuration>
+            <property name="space.activity.log.level">
+                <value>info</value>
+            </property>
+            <property name="space.activity.webapp.url.initial">
+                <value>http://liquidgalaxy.endpoint.com</value>
+            </property>
+            <property name="space.activity.webapp.browser.debug">
+                <value>true</value>
+            </property>
+            <property name="space.activity.ros.node.name">
+                <value>liquidgalaxy/browser/${lg.window.viewport.target}</value>
+            </property>
+            <property name="space.activity.routes.inputs">
+                <value>input00</value>
+            </property>
+            <property name="space.activity.route.input.input00">
+                <value>/liquidgalaxy/${space.activity.group}/browser/input00</value>
+            </property>
+            <property name="space.activity.routes.outputs">
+                <value>output00</value>
+            </property>
+            <property name="space.activity.route.output.output00">
+                <value>/liquidgalaxy/${space.activity.group}/browser/output00</value>
+            </property>
+            <property name="lg.window.viewport.target">
+                <value>default</value>
+            </property>
+        </configuration>
+    </activity>
 </project>
